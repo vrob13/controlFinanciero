@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/controlFinanciero/static/css/main.3a4162b5.css",
+    "main.js": "/controlFinanciero/static/js/main.92b6d4c0.js",
+    "static/media/github_icon (1).svg": "/controlFinanciero/static/media/github_icon (1).88b94326e7a01ba0d14b.svg",
+    "static/media/web_icon.svg": "/controlFinanciero/static/media/web_icon.9017836d0cf8df7f7490.svg",
+    "static/media/linkedin_icon (1).svg": "/controlFinanciero/static/media/linkedin_icon (1).88d4a2df77daae756c2c.svg",
+    "index.html": "/controlFinanciero/index.html",
+    "static/media/icon_delete.svg": "/controlFinanciero/static/media/icon_delete.db0e00da9575d018b550.svg",
+    "main.3a4162b5.css.map": "/controlFinanciero/static/css/main.3a4162b5.css.map",
+    "main.92b6d4c0.js.map": "/controlFinanciero/static/js/main.92b6d4c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a4162b5.css",
+    "static/js/main.92b6d4c0.js"
+  ]
+}
