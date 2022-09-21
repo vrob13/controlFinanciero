@@ -1,0 +1,60 @@
+ .footer {
+    padding-top: 2rem;
+    color: var(--text-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    min-width: 320px;
+}
+
+.footer-social{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-social li {
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    padding: 1rem 1rem;
+}
+
+.footer-social a {
+    color: var(--text_primary);
+    text-decoration: none;
+}
+
+.footer p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: left;
+    color: var(--text_primary);
+    padding: 0.5rem;
+}
+
+.footer-linkedin, .footer-github, .footer-web{
+    width: 32px;
+    height: 32px;
+    background-image: url("../icon/linkedin_icon\ \(1\).svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.footer-linkedin {
+    background-image: url("../icon/linkedin_icon\ \(1\).svg");
+}
+.footer-github {
+    background-image: url("../icon/github_icon\ \(1\).svg");
+}
+.footer-web {
+    width: 34px;
+    height: 34px;
+    background-image: url("../icon/web_icon.svg");
+}

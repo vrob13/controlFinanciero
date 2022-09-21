@@ -1,0 +1,97 @@
+.item__container--egressIncomplete {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 60px;
+    justify-content: end;
+    list-style: none;
+}
+
+.item__container--egressIncomplete .item__data {
+    display: grid;
+    grid-template-columns: 3fr 7fr 1fr;
+    place-items: center;
+    position: relative;
+    font-family: var(--mi-letra);
+    font-size: 12px;
+    width: 80%;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 15px 0px 15px 15px;
+    border: var(--color-estadistica2) solid 2px;
+    background-color: var(--color-estadistica2-trans2);
+    overflow: hidden;
+
+}
+
+
+
+.item__data p {
+    opacity: 65%;
+}
+
+.item__container--egressIncomplete .item__data .text{
+    display: block;
+    margin-left: 5px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.item__container--egressIncomplete .item__data .price{
+    margin-bottom: 5px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.item__container--egressIncomplete .item__data .button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+    color:var(--color-estadistica2);
+    background-color: var(--color-primario);
+    grid-column: 3/4;
+    grid-row: 1/2;
+    
+}
+.item__data .button--actived {
+    color:var(--color-primario);
+    background-color: var(--color-secundario);
+}
+.item__container--egressIncomplete .item__data .button:hover {
+    color:var(--color-primario);
+    background-color: var(--color-estadistica2);
+}
+
+
+.item__container--egressIncomplete .item__data .date {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    font-family: var(--mi-letra);
+    font-size: 8px;
+    opacity: 65%;
+}
+
+.item__container--egressIncomplete .item__close {
+    width: 10%;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+}
+.item__container--egressIncomplete .item__close button{
+    background-color: transparent;
+    border: none;
+    background-image: url(./icon_delete.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+.item__container--egressIncomplete:hover > .item__close {
+    opacity: 1;
+} 

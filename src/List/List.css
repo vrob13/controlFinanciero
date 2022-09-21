@@ -1,0 +1,22 @@
+.main_report {
+    border: var(--color-borde) 1.5px solid;
+    border-radius: 2px;
+    box-shadow: var(--color-borde) 0 0 5px 1px;
+    background: radial-gradient(var(--color-fondo-oscuro),var(--color-fondo-claro));
+    margin-top: 20px;
+    padding-bottom: 1rem;
+    height: 40vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+.main_report::-webkit-scrollbar{
+    width: 5px;
+    background-color: var(--color-secundario-trans2);   
+}  
+
+.main_report::-webkit-scrollbar-thumb {
+    background-color: var(--color-secundario);
+    border-radius: 2px;
+}

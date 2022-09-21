@@ -1,0 +1,95 @@
+.data__conatiner {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+    border: var(--color-secundario) solid 3.4px;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+.data__title {
+    width: 62%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 17px;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    right: 0;
+    color: var(--color-secundario);
+    background-color: var(--color-fondo-oscuro);
+}
+
+.data__total--complete,
+.data__total--incomplete {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    height: auto;
+}
+
+.total__entry,
+.total__egress {
+    text-align: center;
+    width: 30%;
+    margin: 10px 1px;
+}
+
+.total__entry {
+    border-radius: 50%;
+    height: 45px;
+    border: var(--color-secundario) 3.2px solid;
+    background-color: var(--color-secundario-trans);
+    
+}
+.total__difference {
+    border-radius: 50%;
+    height: 50px;
+    border: var(--color-estadistica1) 3.2px solid;
+    background-color: var(--color-estadistica1-trans);
+    
+}
+.total__egress {
+    border-radius: 50%;
+    height: 45px;
+    border: var(--color-estadistica2) 3.2px solid;
+    background-color: var(--color-estadistica2-trans);
+    
+}
+
+.total__difference{
+    text-align: center;
+    width: 35%;
+    padding-top: 3px;
+}
+
+
+.total__entry p, 
+.total__entry span, 
+.total__difference p, 
+.total__difference span, 
+.total__egress p, 
+.total__egress span {
+    font-size: 8px;
+    opacity: 0.5;
+    font-weight: 500;
+    display: block;
+}
+
+.total__entry span{
+    color: var(--color-secundario);
+    opacity: 1;
+}
+
+.total__difference span{
+    color: var(--color-estadistica1);
+    opacity: 1;
+}
+
+.total__egress span{
+    color: var(--color-estadistica2);
+    opacity: 1;
+}

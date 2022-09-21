@@ -1,0 +1,93 @@
+.item__container--entryComplete {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: start;
+    list-style: none;
+}
+
+.item__container--entryComplete .item__data {
+    display: grid;
+    grid-template-columns: 1fr 7fr 3fr;
+    place-items: center;
+    position: relative;
+    font-family: var(--mi-letra);
+    font-size: 12px;
+    width: 80%;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 0px 15px 15px 15px;
+    border: var(--color-secundario) solid 2px;
+    background-color: var(--color-secundario-trans2);
+    overflow: hidden;
+    opacity: 0.7;
+
+}
+
+
+
+.item__data p {
+    opacity: 65%;
+}
+
+.item__container--entryComplete .item__data .text{
+    display: block;
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+
+.item__container--entryComplete .item__data .price{
+    margin-bottom: 5px;
+}
+
+.item__container--entryComplete .item__data .button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+    color:var(--color-secundario);
+    background-color: var(--color-primario);
+}
+
+.item__container--entryComplete .item__data .button:hover {
+    background-color:var(--color-primario);
+    color: var(--color-secundario);
+}
+
+
+.item__container--entryComplete .item__data .date {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    font-family: var(--mi-letra);
+    font-size: 8px;
+    opacity: 65%;
+}
+
+.item__container--entryComplete .item__close {
+    width: 10%;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+}
+.item__container--entryComplete .item__close button{
+    background-color: transparent;
+    border: none;
+    background-image: url(./icon_delete.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+.item__container--entryComplete:hover > .item__close {
+    opacity: 1;
+} 
+
+.item__container--entryComplete .item__data .actived {
+    color:var(--color-primario);
+    background-color: var(--color-secundario);
+}

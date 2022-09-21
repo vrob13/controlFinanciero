@@ -1,0 +1,98 @@
+.form__container--add {
+    font-family: var(--mi-letra);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 20px;
+    background-color: var(--color-primario);
+    color: var(--color-text);
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: var(--color-primario) 0px 0px 2px 2px;
+}
+
+.form__title {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.date__value,
+.total__value,
+.type__value {
+    font-size: 15px;
+    width: 60%;
+    height: 28px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.total__value::placeholder {
+    color: var(--color-primario);
+}
+
+.type__value {
+    width: 35%;
+}
+
+.label__date,
+.label__total,
+.label__type {
+    font-size: 14px;
+    width: 30%;
+    height: 28px;
+    margin: auto 5px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.label__type {
+    width: 50%;
+}
+
+
+.form__textArea {
+    font-size: 15px;
+    margin: 5px;
+    width: 100%;
+    height: 30px;
+    box-shadow: var(--color-secundario) 0px 0px 2px 1px;
+    padding: 5px;
+}
+
+.form__textArea::placeholder {
+    color: var(--color-primario);
+    margin: 0;
+    padding: 0;
+}
+
+.form__buttons {
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+}
+
+.form__buttons button {
+    border: none;
+    background: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    font-family: var(--mi-letra);
+    color: var(--color-primario);
+}
+
+.form__buttons .button__add {
+    background-color: var(--color-secundario);
+}
+
+.form__buttons button:hover {
+    background-color: #b6a4f0c7;
+    color: white;
+}
